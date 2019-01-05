@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GifTastic</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-danger">
+    <div class="container font-italic border bg-primary text-center mt-3 mb-3 pt-3 pb-3">
+        <h1>Entertainment Addicts!</h1>
+        <h3>The Buttons below, show Giphys, of various sport teams, popular songs, Celebrities, Tv and movie shows, and last but not least animals.<br>You can look up any Entertainment in the search box below.<br>You will have to click on the displayed Gigphys, to play and to stop it.<br> Enjoy and have fun!</h3>
+    </div>
+
+    <form class="text-center font-italic">
+        <div class="mb-3">
+            <div class="mt-2"><h4>Look up, your favourite entertainments!</h4></div>
+            <input id="entertainmentUnit" type="text">
+        </div>
+        <input id="appendEntertainment" value="enter" type="submit">
+    </form>
+
+    <div class="container text-center mt-4">
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="btn btn-warning" id="data" data-look="Chelsea Fc">Chelsea Fc</button>
+                <button class="btn btn-warning" id="data" data-look="The L.A. Lakers">The L.A. Lakers</button>
+                <button class="btn btn-warning" id="data" data-look="The Dallas Cowboys">The Dallas Cowboys</button>
+                <button class="btn btn-warning" id="data" data-look="New York Yankees">New York Yankees</button>
+                <button class="btn btn-warning" id="data" data-look="Montreal Canadiens">Montreal Canadiens</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="btn btn-warning" id="data" data-look="Girls Like You">Girls Like You</button>
+                <button class="btn btn-warning" id="data" data-look="God's Plan">God's Plan</button>
+                <button class="btn btn-warning" id="data" data-look="Delicate">Delicate</button>
+                <button class="btn btn-warning" id="data" data-look="New Rules">New Rules</button>
+                <button class="btn btn-warning" id="data" data-look="Bad At Love">Bad At Love</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="btn btn-warning" id="data" data-look="Michelle Obama">Michelle Obama</button>
+                <button class="btn btn-warning" id="data" data-look="Donald Trump">Donald Trump</button>
+                <button class="btn btn-warning" id="data" data-look="Tom Brady">Tom Brady</button>
+                <button class="btn btn-warning" id="data" data-look="Julia Roberts">Julia Roberts</button>
+                <button class="btn btn-warning" id="data" data-look="Leonel Messi">Leonel Messi</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="btn btn-warning" id="data" data-look="The Dark Night">The Dark Night</button>
+                <button class="btn btn-warning" id="data" data-look="The Office">The Office</button>
+                <button class="btn btn-warning" id="data" data-look="The Daily Show">The Daily Show</button>
+                <button class="btn btn-warning" id="data" data-look="Breaking bad">Breaking Bad</button>
+                <button class="btn btn-warning" id="data" data-look="Family Guy">Family Guy</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <button class="btn btn-warning" id="data" data-look="Dogs">Dogs</button>
+                <button class="btn btn-warning" id="data" data-look="Birds">Birds</button>
+                <button class="btn btn-warning" id="data" data-look="Lions">Lions</button>
+                <button class="btn btn-warning" id="data" data-look="Pandas">Pandas</button>
+                <button class="btn btn-warning" id="data" data-look="Elephants">Elephants</button>
+                <button class="btn btn-warning" id="data" data-look="Bears">Bears</button>
+                <button class="btn btn-warning" id="data" data-look="Penguins">Penguins</button>
+                <button class="btn btn-warning" id="data" data-look="Horses">Horses</button>
+                <div id="madeupButtons"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <span><div id="locatedGif"></div></span>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
+ 
